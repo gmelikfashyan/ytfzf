@@ -15,7 +15,7 @@ default: install doc
 
 doc:
 	mkdir -p ${DESTDIR}${MANDIR}/man3
-	mkdir -p ${DESTDIR}${MANDIR}/man2
+	mkdir -p ${DESTDIR}${MANDIR}/man5
 	mkdir -p ${DESTDIR}${DOCDIR}
 	mkdir -p ${DESTDIR}${LICENSEDIR}
 	chmod 644 docs/man/ytfzf.1 docs/man/ytfzf.5 docs/conf.sh LICENSE
